@@ -1,0 +1,245 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    display: flex;
+    align-items: baseline;
+    background-color:#24282b;
+    justify-content: space-between;
+    padding: 0 10%;
+    border-bottom: 5px solid #1793d4;
+    height: 120px;
+    align-items: center;
+}
+span{
+    color:#1793d4;
+    
+}
+
+.ini{
+    display: flex;
+    align-items:center;
+    color:#ffffff;
+}
+
+
+.menu{
+    display: flex;
+    align-items: baseline;
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap:45px;
+}
+
+h1{
+    color: #ffffff;
+}
+
+
+
+
+.titulo{
+    display: flex;
+    gap: 20px;
+}
+
+section{
+    background:url("./images/cabecera.jpg") 0 -400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+
+.titulo2{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+
+}
+
+.parrafo{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.suscripcion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    border: 1px solid rgb(36,40,43);
+    height: 94px;
+    background-color: rgb(36,40,43);
+}
+    
+
+.sus{
+    color: #ffffff;
+    background-color:rgb(225,76,44);
+    display: flex;
+
+}
+
+.logo{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    height:350px;
+}
+
+
+
+.html{
+    height:0%;
+    width: 123px;
+    
+}
+
+.css{
+    height:0%;
+    width: 123px;
+  
+}
+
+.brush{
+    height:0%;
+    width: 123px;
+}
+
+.suscripcion1 input{
+    width: 260px;
+    height:31px;
+
+}
+
+.suscripcion1 button{
+    height: 35px;
+    width: 112px;
+    background-color:rgb(232, 73, 29);
+    color: white;
+}
+
+.fo{
+    background-color: rgb(18, 147, 212);
+    color: white;
+    height:40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Segunda pagina*/
+
+.parede{
+    margin-top:2%;
+}
+
+.conterPadre{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conterH1{
+    display: flex;
+    width:682px;
+    flex-direction: column;
+    gap:30px;
+}
+
+.hijo2{
+    background-color: rgb(53, 66, 74);
+    color: white;
+    padding:2%;
+}
+
+.hpadre2{
+    background-color: rgb(53, 66, 74);
+    height:200px;
+    color: white;
+}
+
+.hpadre2 {
+    padding: 4%;
+
+}
+
+.img{
+    margin:0 0 15px 0 ;
+}
+
+/* Tercera pagina*/
+
+.cp{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chijo{
+    display: flex;
+    flex-direction: column;
+    width:700px;
+    gap: 8px;;
+}
+
+.ch2{
+    display: flex;
+    background-color:#e6e6e6;
+    gap: 30px;
+    flex-direction: column;
+    padding:15px;
+}
+
+.ser{
+    color: black;
+}
+
+.hpadre3{
+    background-color: rgb(53, 66, 74);
+    height:200px;
+    color: white;
+    width:400px;
+}
+
+/* Cuarta pagina*/
+
+.formulario{
+    width:100px;
+}
+
+.n{
+    width:700px;
+    height:30px;
+}
+
+.m{
+    width: 700px;
+    height:150px;
+}
+
+.boton{
+    width:700px;
+    height:30px;
+    background-color:rgb(232, 73, 29);
+    color: white;
+}
+
+.google{
+    display:flex;
+    flex-direction: column;
+    height:300px;
+    width:400px;
+}
