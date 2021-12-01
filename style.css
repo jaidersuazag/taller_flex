@@ -36,13 +36,17 @@ span{
     display: flex;
     list-style: none;
     gap:45px;
+    text-decoration: none;
 }
 
 h1{
     color: #ffffff;
 }
 
-
+a{
+    text-decoration: none;
+    color: white;
+}
 
 
 .titulo{
@@ -242,4 +246,86 @@ section{
     flex-direction: column;
     height:300px;
     width:400px;
+}
+
+@media(max-width:360px){
+   
+    .suscripcion1 input{
+        width:110px;
+        height:18px;
+    
+    }
+    .suscripcion1 button{
+        height: 35px;
+        width: 72px;
+        background-color:rgb(232, 73, 29);
+        color: white;
+    }
+
+    .suscripcion{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 18px;
+        color: white;
+        border: 1px solid rgb(36,40,43);
+        height: 100px;
+        background-color: rgb(36,40,43);
+    }
+
+    .fo{
+        height:44px;
+        text-align: center;
+        padding-top: 27px;
+    }
+  
+
+    .logo{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        text-align: center;
+        height:auto;
+        flex-direction: column;
+    }
+
+    .menu ul {
+        display: flex;
+        list-style: none;
+        gap:5px;
+        font-size:small;
+    }
+    
+    h1{
+        font-size:small;
+    }
+
+    header{
+        padding: 0 0%;
+    }
+
+    .html{
+        height:45%;
+        width: 113px;
+        
+    }
+    
+    .css{
+        height:45%;
+        width: 113px;
+      
+    }
+    
+    .brush{
+        height:45%;
+        width: 113px;
+    }
+
+    .titulo2{
+        font-size:25px;
+       padding: 0 0 10px 0;
+
+    }
+
+    
 }
